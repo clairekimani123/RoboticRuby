@@ -1,7 +1,7 @@
 # AI Prompt Journal - Ruby Sensor Data Reader
 
-## Date: [Current Date]
-**Student:** [Your Name]  
+## Date: 28/11/2025
+**Student:** Claire Kimani  
 **Technology:** Ruby Programming Language  
 **Project:** Sensor Data Reader for Robotics
 
@@ -162,6 +162,148 @@ Suggested enhancements:
 ⚠️ Some too complex for this week's timeline
 
 ---
+
+## Prompt #8: Understanding Instance Variables (@)
+**Date:** Tuesday, November 26, 2025
+
+**Prompt:**
+```
+In the Ruby code, I see @name, @unit, @sensors with @ symbols. 
+What does the @ symbol mean? Why do we use it? Give me a simple example.
+```
+
+**AI Response Summary:**
+The @ symbol creates instance variables in Ruby. Unlike regular variables that only exist in one method, instance variables belong to the entire object and can be accessed by any method in the class. Example: @name in a Sensor object persists so that both initialize and read methods can use it.
+
+**What I Learned:**
+- @ makes variables belong to the object, not just one method
+- Without @, variables disappear when the method ends
+- Each object has its own instance variables (temp_sensor's @name is different from humidity_sensor's @name)
+- This is why sensor data persists and can be used across methods
+
+**My Evaluation:**
+✅ Very clear explanation with examples
+✅ The Robot analogy helped me understand
+✅ Now I understand why we need @ in our sensor code
+
+**Test I Did:**
+Created test_instance_var.rb and ran it - saw how @age and @name persist across methods!
+
+
+## Prompt #9: Adding a New Sensor Type
+**Date:** Wednesday, November 27, 2025
+
+**Prompt:**
+```
+I want to add a new sensor type called 'Pressure' that measures 
+in 'Pa' (Pascals) from 95000 to 105000. Show me exactly what 
+line to add to the code.
+```
+
+**AI Response Summary:**
+Add this line after the Battery Voltage sensor:
+```ruby
+sensor_array.add_sensor(Sensor.new("Pressure", "Pa", 95000.0, 105000.0))
+```
+The values 95000-105000 Pa represent realistic atmospheric pressure range. Also learned how to add pressure analysis to the analyze_readings method.
+
+**What I Learned:**
+- Adding new sensors is just one line of code
+- The Sensor class is reusable for any sensor type
+- Just need to provide: name, unit, min value, max value
+- Pressure values are based on real atmospheric pressure
+- Can also add custom analysis for the new sensor
+
+**What I Tried:**
+✅ Added the pressure sensor line
+✅ Ran the program - saw 6 sensors now!
+✅ Added pressure analysis (optional enhancement)
+✅ Tested multiple times - works perfectly
+
+**My Evaluation:**
+✅ Super easy to add new sensors
+✅ Understood the pattern for extending the code
+✅ Learned about real-world pressure values
+✅ Shows power of object-oriented programming
+
+**Screenshot:** [Take a screenshot of your output showing the Pressure sensor]
+
+## Prompt #10: Web Integration Decision
+**Date:** Tuesday, November 26, 2025 - Evening
+
+**Prompt:**
+```
+I need to add a web frontend to my Ruby sensor project so I can have 
+a live link for GitHub Pages. Should I use Vue.js? How do I integrate 
+Ruby backend with Vue frontend?
+```
+
+**AI Response Summary:**
+Suggested creating a hybrid approach:
+- Ruby generates sensor data and saves to JSON
+- Vue.js reads the JSON and displays in browser
+- Can host on GitHub Pages for free live link
+- Keeps project simple but impressive
+
+**My Evaluation:**
+✅ Solves the live link requirement
+✅ Shows full-stack thinking
+✅ Still demonstrates Ruby as main technology
+✅ Vue adds professional polish
+
+---
+
+## Prompt #11: JSON Data Generation
+**Prompt:**
+```
+How do I modify my Ruby sensor code to output data as JSON 
+that a web frontend can read?
+```
+
+**AI Response Summary:**
+Created `generate_sensor_data.rb` that:
+- Uses Ruby's JSON library
+- Structures data with current readings and history
+- Saves to `sensor_data.json` file
+- Includes metadata about the project
+
+**What I Learned:**
+- Ruby's `require 'json'` for JSON handling
+- `JSON.pretty_generate()` for formatted output
+- File I/O with `File.open()`
+- Data structure design for frontend consumption
+
+---
+
+## Prompt #12: Vue.js Dashboard Creation
+**Prompt:**
+```
+Create a Vue.js dashboard that reads sensor_data.json and displays 
+it beautifully with cards for each sensor, color-coded status, and 
+a refresh button.
+```
+
+**AI Response Summary:**
+Built complete HTML page with:
+- Vue 3 CDN (no installation needed)
+- Responsive grid layout
+- Color-coded sensor cards
+- Status indicators
+- Refresh functionality
+- Beautiful gradient design
+
+**What I Learned:**
+- Vue.js basics (data, methods, mounted)
+- Fetch API for reading JSON
+- Reactive data binding with v-for
+- Event handling with @click
+- CSS Grid for responsive layouts
+
+**My Evaluation:**
+✅ Professional-looking dashboard
+✅ Easy to understand Vue.js code
+✅ Works without complex setup
+✅ Mobile-responsive design
 
 ## Overall AI Learning Reflection
 

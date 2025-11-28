@@ -1,0 +1,659 @@
+{
+  "current": {
+    "timestamp": "2025-11-28T17:16:07+03:00",
+    "readings": [
+      {
+        "name": "Temperature",
+        "value": 8.68,
+        "unit": "°C",
+        "status": {
+          "level": "info",
+          "message": "Low temperature detected"
+        }
+      },
+      {
+        "name": "Humidity",
+        "value": 64.6,
+        "unit": "%",
+        "status": {
+          "level": "normal",
+          "message": "Normal"
+        }
+      },
+      {
+        "name": "Distance",
+        "value": 40.09,
+        "unit": "cm",
+        "status": {
+          "level": "normal",
+          "message": "Clear path"
+        }
+      },
+      {
+        "name": "Light Level",
+        "value": 774.6,
+        "unit": "lux",
+        "status": {
+          "level": "normal",
+          "message": "Normal"
+        }
+      },
+      {
+        "name": "Battery Voltage",
+        "value": 5.9,
+        "unit": "V",
+        "status": {
+          "level": "normal",
+          "message": "Normal"
+        }
+      },
+      {
+        "name": "Pressure",
+        "value": 103342.45,
+        "unit": "Pa",
+        "status": {
+          "level": "info",
+          "message": "High pressure - clear weather"
+        }
+      }
+    ]
+  },
+  "history": [
+    {
+      "timestamp": "2025-11-28T17:06:07+03:00",
+      "readings": [
+        {
+          "name": "Temperature",
+          "value": 8.5,
+          "unit": "°C",
+          "status": {
+            "level": "info",
+            "message": "Low temperature detected"
+          }
+        },
+        {
+          "name": "Humidity",
+          "value": 54.18,
+          "unit": "%",
+          "status": {
+            "level": "normal",
+            "message": "Normal"
+          }
+        },
+        {
+          "name": "Distance",
+          "value": 74.77,
+          "unit": "cm",
+          "status": {
+            "level": "normal",
+            "message": "Clear path"
+          }
+        },
+        {
+          "name": "Light Level",
+          "value": 205.35,
+          "unit": "lux",
+          "status": {
+            "level": "normal",
+            "message": "Normal"
+          }
+        },
+        {
+          "name": "Battery Voltage",
+          "value": 4.14,
+          "unit": "V",
+          "status": {
+            "level": "normal",
+            "message": "Normal"
+          }
+        },
+        {
+          "name": "Pressure",
+          "value": 100717.8,
+          "unit": "Pa",
+          "status": {
+            "level": "normal",
+            "message": "Normal"
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2025-11-28T17:07:07+03:00",
+      "readings": [
+        {
+          "name": "Temperature",
+          "value": 19.51,
+          "unit": "°C",
+          "status": {
+            "level": "normal",
+            "message": "Normal"
+          }
+        },
+        {
+          "name": "Humidity",
+          "value": 69.82,
+          "unit": "%",
+          "status": {
+            "level": "normal",
+            "message": "Normal"
+          }
+        },
+        {
+          "name": "Distance",
+          "value": 175.91,
+          "unit": "cm",
+          "status": {
+            "level": "normal",
+            "message": "Clear path"
+          }
+        },
+        {
+          "name": "Light Level",
+          "value": 219.95,
+          "unit": "lux",
+          "status": {
+            "level": "normal",
+            "message": "Normal"
+          }
+        },
+        {
+          "name": "Battery Voltage",
+          "value": 6.16,
+          "unit": "V",
+          "status": {
+            "level": "normal",
+            "message": "Normal"
+          }
+        },
+        {
+          "name": "Pressure",
+          "value": 95207.11,
+          "unit": "Pa",
+          "status": {
+            "level": "info",
+            "message": "Low pressure - storm possible"
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2025-11-28T17:08:07+03:00",
+      "readings": [
+        {
+          "name": "Temperature",
+          "value": 24.65,
+          "unit": "°C",
+          "status": {
+            "level": "normal",
+            "message": "Normal"
+          }
+        },
+        {
+          "name": "Humidity",
+          "value": 22.2,
+          "unit": "%",
+          "status": {
+            "level": "normal",
+            "message": "Normal"
+          }
+        },
+        {
+          "name": "Distance",
+          "value": 89.15,
+          "unit": "cm",
+          "status": {
+            "level": "normal",
+            "message": "Clear path"
+          }
+        },
+        {
+          "name": "Light Level",
+          "value": 823.25,
+          "unit": "lux",
+          "status": {
+            "level": "normal",
+            "message": "Normal"
+          }
+        },
+        {
+          "name": "Battery Voltage",
+          "value": 12.22,
+          "unit": "V",
+          "status": {
+            "level": "normal",
+            "message": "Normal"
+          }
+        },
+        {
+          "name": "Pressure",
+          "value": 103546.56,
+          "unit": "Pa",
+          "status": {
+            "level": "info",
+            "message": "High pressure - clear weather"
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2025-11-28T17:09:07+03:00",
+      "readings": [
+        {
+          "name": "Temperature",
+          "value": 36.19,
+          "unit": "°C",
+          "status": {
+            "level": "warning",
+            "message": "High temperature detected!"
+          }
+        },
+        {
+          "name": "Humidity",
+          "value": 82.95,
+          "unit": "%",
+          "status": {
+            "level": "info",
+            "message": "High humidity"
+          }
+        },
+        {
+          "name": "Distance",
+          "value": 6.31,
+          "unit": "cm",
+          "status": {
+            "level": "alert",
+            "message": "Obstacle nearby!"
+          }
+        },
+        {
+          "name": "Light Level",
+          "value": 829.45,
+          "unit": "lux",
+          "status": {
+            "level": "normal",
+            "message": "Normal"
+          }
+        },
+        {
+          "name": "Battery Voltage",
+          "value": 9.85,
+          "unit": "V",
+          "status": {
+            "level": "normal",
+            "message": "Normal"
+          }
+        },
+        {
+          "name": "Pressure",
+          "value": 99076.45,
+          "unit": "Pa",
+          "status": {
+            "level": "normal",
+            "message": "Normal"
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2025-11-28T17:10:07+03:00",
+      "readings": [
+        {
+          "name": "Temperature",
+          "value": 10.2,
+          "unit": "°C",
+          "status": {
+            "level": "normal",
+            "message": "Normal"
+          }
+        },
+        {
+          "name": "Humidity",
+          "value": 37.1,
+          "unit": "%",
+          "status": {
+            "level": "normal",
+            "message": "Normal"
+          }
+        },
+        {
+          "name": "Distance",
+          "value": 107.73,
+          "unit": "cm",
+          "status": {
+            "level": "normal",
+            "message": "Clear path"
+          }
+        },
+        {
+          "name": "Light Level",
+          "value": 994.44,
+          "unit": "lux",
+          "status": {
+            "level": "normal",
+            "message": "Normal"
+          }
+        },
+        {
+          "name": "Battery Voltage",
+          "value": 5.78,
+          "unit": "V",
+          "status": {
+            "level": "normal",
+            "message": "Normal"
+          }
+        },
+        {
+          "name": "Pressure",
+          "value": 97712.32,
+          "unit": "Pa",
+          "status": {
+            "level": "info",
+            "message": "Low pressure - storm possible"
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2025-11-28T17:11:07+03:00",
+      "readings": [
+        {
+          "name": "Temperature",
+          "value": 32.47,
+          "unit": "°C",
+          "status": {
+            "level": "warning",
+            "message": "High temperature detected!"
+          }
+        },
+        {
+          "name": "Humidity",
+          "value": 93.6,
+          "unit": "%",
+          "status": {
+            "level": "info",
+            "message": "High humidity"
+          }
+        },
+        {
+          "name": "Distance",
+          "value": 189.06,
+          "unit": "cm",
+          "status": {
+            "level": "normal",
+            "message": "Clear path"
+          }
+        },
+        {
+          "name": "Light Level",
+          "value": 513.45,
+          "unit": "lux",
+          "status": {
+            "level": "normal",
+            "message": "Normal"
+          }
+        },
+        {
+          "name": "Battery Voltage",
+          "value": 9.25,
+          "unit": "V",
+          "status": {
+            "level": "normal",
+            "message": "Normal"
+          }
+        },
+        {
+          "name": "Pressure",
+          "value": 95686.48,
+          "unit": "Pa",
+          "status": {
+            "level": "info",
+            "message": "Low pressure - storm possible"
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2025-11-28T17:12:07+03:00",
+      "readings": [
+        {
+          "name": "Temperature",
+          "value": 11.29,
+          "unit": "°C",
+          "status": {
+            "level": "normal",
+            "message": "Normal"
+          }
+        },
+        {
+          "name": "Humidity",
+          "value": 79.1,
+          "unit": "%",
+          "status": {
+            "level": "normal",
+            "message": "Normal"
+          }
+        },
+        {
+          "name": "Distance",
+          "value": 35.8,
+          "unit": "cm",
+          "status": {
+            "level": "normal",
+            "message": "Clear path"
+          }
+        },
+        {
+          "name": "Light Level",
+          "value": 205.99,
+          "unit": "lux",
+          "status": {
+            "level": "normal",
+            "message": "Normal"
+          }
+        },
+        {
+          "name": "Battery Voltage",
+          "value": 9.75,
+          "unit": "V",
+          "status": {
+            "level": "normal",
+            "message": "Normal"
+          }
+        },
+        {
+          "name": "Pressure",
+          "value": 104934.09,
+          "unit": "Pa",
+          "status": {
+            "level": "info",
+            "message": "High pressure - clear weather"
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2025-11-28T17:13:07+03:00",
+      "readings": [
+        {
+          "name": "Temperature",
+          "value": 29.16,
+          "unit": "°C",
+          "status": {
+            "level": "normal",
+            "message": "Normal"
+          }
+        },
+        {
+          "name": "Humidity",
+          "value": 24.81,
+          "unit": "%",
+          "status": {
+            "level": "normal",
+            "message": "Normal"
+          }
+        },
+        {
+          "name": "Distance",
+          "value": 86.45,
+          "unit": "cm",
+          "status": {
+            "level": "normal",
+            "message": "Clear path"
+          }
+        },
+        {
+          "name": "Light Level",
+          "value": 366.25,
+          "unit": "lux",
+          "status": {
+            "level": "normal",
+            "message": "Normal"
+          }
+        },
+        {
+          "name": "Battery Voltage",
+          "value": 7.31,
+          "unit": "V",
+          "status": {
+            "level": "normal",
+            "message": "Normal"
+          }
+        },
+        {
+          "name": "Pressure",
+          "value": 101706.17,
+          "unit": "Pa",
+          "status": {
+            "level": "normal",
+            "message": "Normal"
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2025-11-28T17:14:07+03:00",
+      "readings": [
+        {
+          "name": "Temperature",
+          "value": 35.27,
+          "unit": "°C",
+          "status": {
+            "level": "warning",
+            "message": "High temperature detected!"
+          }
+        },
+        {
+          "name": "Humidity",
+          "value": 72.67,
+          "unit": "%",
+          "status": {
+            "level": "normal",
+            "message": "Normal"
+          }
+        },
+        {
+          "name": "Distance",
+          "value": 120.8,
+          "unit": "cm",
+          "status": {
+            "level": "normal",
+            "message": "Clear path"
+          }
+        },
+        {
+          "name": "Light Level",
+          "value": 841.9,
+          "unit": "lux",
+          "status": {
+            "level": "normal",
+            "message": "Normal"
+          }
+        },
+        {
+          "name": "Battery Voltage",
+          "value": 11.66,
+          "unit": "V",
+          "status": {
+            "level": "normal",
+            "message": "Normal"
+          }
+        },
+        {
+          "name": "Pressure",
+          "value": 96386.43,
+          "unit": "Pa",
+          "status": {
+            "level": "info",
+            "message": "Low pressure - storm possible"
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2025-11-28T17:15:07+03:00",
+      "readings": [
+        {
+          "name": "Temperature",
+          "value": 13.8,
+          "unit": "°C",
+          "status": {
+            "level": "normal",
+            "message": "Normal"
+          }
+        },
+        {
+          "name": "Humidity",
+          "value": 81.38,
+          "unit": "%",
+          "status": {
+            "level": "info",
+            "message": "High humidity"
+          }
+        },
+        {
+          "name": "Distance",
+          "value": 190.65,
+          "unit": "cm",
+          "status": {
+            "level": "normal",
+            "message": "Clear path"
+          }
+        },
+        {
+          "name": "Light Level",
+          "value": 41.67,
+          "unit": "lux",
+          "status": {
+            "level": "normal",
+            "message": "Normal"
+          }
+        },
+        {
+          "name": "Battery Voltage",
+          "value": 4.74,
+          "unit": "V",
+          "status": {
+            "level": "normal",
+            "message": "Normal"
+          }
+        },
+        {
+          "name": "Pressure",
+          "value": 103741.43,
+          "unit": "Pa",
+          "status": {
+            "level": "info",
+            "message": "High pressure - clear weather"
+          }
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "generated_at": "2025-11-28T17:16:07+03:00",
+    "sensor_count": 6,
+    "project": "Ruby Sensor Data Reader",
+    "author": "Claire Kimani"
+  }
+}

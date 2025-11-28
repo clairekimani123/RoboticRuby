@@ -3,19 +3,33 @@
 # Sensor Data Reader - A Simple Ruby Program for Robotics Learning
 # This simulates reading data from multiple sensors like those found in robots
 
+
+#declarng a sensor class
 class Sensor
+  #  the reeason of using attr_reader, is because it is a getter method allowing us to read the name and unit and allow as  to use sensor.name and sensor.unit.
   attr_reader :name, :unit
-  
+  # this is normal initialization methods
+  # the @ mean it belong to the secific sensor object
   def initialize(name, unit, min_value, max_value)
     @name = name
-    @unit = unit
-    @min_value = min_value
-    @max_value = max_value
-  end
+    @unit = unit # stores the unit of measurements
+    @min_value = min_value # store minimum possible value
+    @max_value = max_value # store maximum possible value
+  end # end of method the same way in js we usually use { }
   
+
+  # let's create a new temp_sensor according to the instaces initialize method
+ # temp_sensor = Sensor.new("Temperature", "°C", 5.0, 40.0)
+# Now temp_sensor has:
+# @name = "Temperature"
+# @unit = "°C"
+# @min_value = 5.0
+# @max_value = 40.0
+
+
   def read
     # Simulate sensor reading with random values
-    rand(@min_value..@max_value).round(2)
+    rand(@min_value..@max_value).round(2) #this just gets any roandom number btwn 5.0 to 40.0 nad later round it to the nearest 2
   end
 end
 
@@ -96,6 +110,7 @@ def main
   sensor_array.add_sensor(Sensor.new("Distance", "cm", 5.0, 200.0))
   sensor_array.add_sensor(Sensor.new("Light Level", "lux", 0.0, 1000.0))
   sensor_array.add_sensor(Sensor.new("Battery Voltage", "V", 3.0, 12.6))
+  sensor_array.add_sensor(Sensor.new("Pressure", "Pa", 95000.0, 105000.0))
   
   # Ask user how many readings to take
   print "How many sensor readings do you want? (1-10): "
