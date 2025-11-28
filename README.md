@@ -5,7 +5,7 @@
 **Technology:** Ruby Programming Language + Vue.js Frontend  
 **Project Goal:** Learn Ruby basics through a robotics-themed sensor data reader with web visualization
 
-**🔗 Live Demo:** [Your GitHub Pages URL will go here]
+**🔗 Live Demo:** (https://clairekimani123.github.io/RoboticRuby/)
 
 ---
 
@@ -272,13 +272,14 @@ readings = sensor_array.read_all
 
 ---
 
-## 9. AI Prompt Journal
+## 9. Documentation.
 
 See `Documentation.md` for detailed documentation of:
 - All prompts used during development
 - AI responses and learning outcomes
 - Iterative improvements
 - Troubleshooting steps
+-**Documentation Link:** https://docs.google.com/document/d/1doXDQQ3lJ5n5oJrP2H2K-yadBdIlpon4PblpXT7XNsM/edit?tab=t.0
 
 **Key Learning Areas:**
 - Ruby classes and instance variables
@@ -441,9 +442,9 @@ git add .
 git commit -m "Add sensor reader with Vue.js dashboard"
 git push origin main
 
-# Enable GitHub Pages
-# Settings → Pages → Source: main branch
-# Your site will be at: https://username.github.io/repo-name/
+Enable GitHub Pages
+Settings → Pages → Source: main branch
+Your site will be at:(https://clairekimani123.github.io/RoboticRuby/)
 ```
 
 ---
@@ -478,9 +479,9 @@ MIT License - Feel free to use this project for learning purposes!
 ## 19. Contact
 
 **Author:** Claire Kimani  
-**GitHub:** [Your GitHub Profile]  
-**Project Repository:** [Your Repo URL]  
-**LinkedIn:** [Your LinkedIn]  
+**GitHub:**(https://github.com/clairekimani123)  
+**Project Repository:** (https://github.com/clairekimani123/RoboticRuby)   
+ 
 
 ---
 

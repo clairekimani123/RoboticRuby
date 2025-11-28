@@ -43,7 +43,7 @@ For Ubuntu/Debian Linux:
 ✅ Included verification steps
 
 **Installation Result:**
-- Ruby version installed: [Your version here]
+- Ruby version installed:ruby 3.2.3 
 - Time taken: ~5 minutes
 
 ---
@@ -96,7 +96,7 @@ Received complete working code with:
 ✅ Analysis feature adds intelligence  
 
 **Improvements Made:**
-- [List any changes you make to the code]
+- Added a vue CDN to vew my sensor cards on the website.
 
 ---
 
@@ -164,7 +164,7 @@ Suggested enhancements:
 ---
 
 ## Prompt #8: Understanding Instance Variables (@)
-**Date:** Tuesday, November 26, 2025
+**Date:** Tuesday, November 25, 2025
 
 **Prompt:**
 ```
@@ -191,7 +191,7 @@ Created test_instance_var.rb and ran it - saw how @age and @name persist across 
 
 
 ## Prompt #9: Adding a New Sensor Type
-**Date:** Wednesday, November 27, 2025
+**Date:** Wednesday, November 26, 2025
 
 **Prompt:**
 ```
@@ -229,7 +229,7 @@ The values 95000-105000 Pa represent realistic atmospheric pressure range. Also 
 **Screenshot:** [Take a screenshot of your output showing the Pressure sensor]
 
 ## Prompt #10: Web Integration Decision
-**Date:** Tuesday, November 26, 2025 - Evening
+**Date:** Wednesday, November 26, 2025 - Evening
 
 **Prompt:**
 ```
@@ -319,12 +319,9 @@ Built complete HTML page with:
 - Asking for "beginner-friendly" helps get appropriate responses
 - Context matters (mentioning Linux, robotics interest, etc.)
 
-**If I Did This Again:**
-- [Your reflections on the process]
-- [What you'd do differently]
 
 ---
 
 **Total Prompts Used:** 7+  
-**Most Helpful Prompt:** #4 (Complete code implementation)  
+**Most Helpful Prompt:** #4 almost all were helpful 
 **Time Saved:** Estimated 10+ hours vs learning from scratch
